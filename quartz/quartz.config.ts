@@ -1,4 +1,4 @@
-import { QuartzConfig } from "./quartz/cfg"
+import { QuartzConfig } from "./quartz/cfg.js"
 import * as Plugin from "./quartz/plugins"
 
 /**

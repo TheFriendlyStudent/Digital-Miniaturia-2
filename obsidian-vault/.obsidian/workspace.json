@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "663a84e624c5976b",
+  "active": "75646bf64914a390",
   "lastOpenFiles": [
+    "world_data.db",
     "Assets/Maps/Map_Chambria.svg",
     "Assets/Maps/Map_Bouldaria.svg",
     "Assets/Maps/Map_Brazealian_Guinea.svg",
@@ -206,7 +207,6 @@
     "Assets/Maps/Map_United_Republic_of_Stoneland.svg",
     "Assets/Maps/Map_Gormanistan.svg",
     "Assets/Maps/Map Layer.svg",
-    "Assets/Maps/Map_Workers'_Republic_of_North_Ostesia.svg",
     "Encyclopedia/Countries/People's Republic of Titania.md",
     "Encyclopedia/Provinces/Keenesia.md",
     "Encyclopedia/Provinces/Keltigrsd (Келтиград).md",
@@ -222,7 +222,6 @@
     "Encyclopedia/Provinces/Amdota.md",
     "index.md",
     "Encyclopedia/Untitled.md",
-    "world_data.db",
     "Encyclopedia/Provinces/Addisonia.md"
   ]
 }

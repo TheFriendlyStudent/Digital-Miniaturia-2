@@ -4,6 +4,10 @@ on:
     branches:
       - main
 
+# Opts into Node 24 for the internal GitHub Action runners to silence deprecation warnings
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 permissions:
   contents: read
   pages: write
@@ -38,8 +42,9 @@ jobs:
 
       - name: Build Quartz
         working-directory: quartz
-        # We use the full package name to avoid conflict with the 'quartz' directory name
-        run: npx @jackyzha0/quartz build
+        # Directly calling the binary bypasses the 'Permission denied' folder conflict
+        # and the 'quartz: not found' error.
+        run: ./node_modules/.bin/quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

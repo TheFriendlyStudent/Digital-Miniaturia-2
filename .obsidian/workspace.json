@@ -11,10 +11,14 @@
             "id": "cc950999a9e804dd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -190,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "073b09b23e805d4e",
+  "active": "cc950999a9e804dd",
   "lastOpenFiles": [
     "obsidian-vault/index.md",
     "obsidian-vault/Encyclopedia/Countries/People's Republic of Titania.md",

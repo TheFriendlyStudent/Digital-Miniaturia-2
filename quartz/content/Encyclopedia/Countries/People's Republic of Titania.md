@@ -5,16 +5,16 @@ The People's Republic of Titania, commonly known as Titania or Rishtonia, is a h
 ---
 
 ## Quick Facts
-| Category             | Information                  |
-| :------------------- | :--------------------------- |
-| **Official Name**    | People's Republic of Titania |
-| **Capital**          | [[Amdota]]                   |
-| **Primary Language** | English                      |
-| **Government**       | {{GovType}}                  |
-| **Current Ruler**    | [[Peter Ramesh]]             |
-| **Currency**         | Shell                        |
-| **Population**       | {{Population}}               |
-| **Total Area**       | {{Area}} km²                 |
+| Category             | Information                            |
+| :------------------- | :------------------------------------- |
+| **Official Name**    | People's Republic of Titania           |
+| **Capital**          | [[Encyclopedia/Cities/Amdota\|Amdota]] |
+| **Primary Language** | English                                |
+| **Government**       | {{GovType}}                            |
+| **Current Ruler**    | [[Peter Ramesh]]                       |
+| **Currency**         | Shell                                  |
+| **Population**       | {{Population}}                         |
+| **Total Area**       | {{Area}} km²                           |
 
 ---
 

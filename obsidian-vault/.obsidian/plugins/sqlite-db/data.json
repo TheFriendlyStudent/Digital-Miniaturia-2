@@ -1,9 +1,9 @@
 {
-  "dbFilePath": "C:\\Users\\vasub\\Documents\\GitHub\\Digital-Miniaturia-2\\world_data.db",
+  "dbFilePath": "world_data.db",
   "mode": "local",
   "apiBaseUrl": "",
-  "journalFolderPath": "",
-  "journalTableName": "",
+  "journalFolderPath": "Encyclopedia/",
+  "journalTableName": "Untitled",
   "cfAccessClientId": "",
   "cfAccessClientSecret": ""
 }

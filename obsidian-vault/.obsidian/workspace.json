@@ -11,14 +11,12 @@
             "id": "663a84e624c5976b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Encyclopedia/Provinces/Addisonia.md",
-                "mode": "source",
-                "source": false
+                "file": "Assets/Maps/Map Layer.svg"
               },
-              "icon": "lucide-file",
-              "title": "Addisonia"
+              "icon": "lucide-image",
+              "title": "Map Layer"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia/Provinces/Addisonia.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Addisonia"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia/Provinces/Addisonia.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Addisonia"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia/Provinces/Addisonia.md",
+                "file": "Encyclopedia/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Addisonia"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -196,6 +194,18 @@
   },
   "active": "663a84e624c5976b",
   "lastOpenFiles": [
-    "index.md"
+    "Encyclopedia/Countries/People's Republic of Titania.md",
+    "Assets/Maps/Map Layer.svg",
+    "Assets/Maps",
+    "Assets/Flags",
+    "Assets",
+    "Encyclopedia/Cities/Amdota.md",
+    "{{ProvinceName}}.md",
+    "_Templates/City Template.md",
+    "Encyclopedia/Provinces/Amdota.md",
+    "index.md",
+    "Encyclopedia/Untitled.md",
+    "world_data.db",
+    "Encyclopedia/Provinces/Addisonia.md"
   ]
 }

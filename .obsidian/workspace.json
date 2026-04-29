@@ -194,13 +194,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "814a9b6adaa65361",
+  "active": "fd757680a401846e",
   "lastOpenFiles": [
+    "Encyclopedia/Countries/People's Republic of Titania (Titania).md",
+    "obsidian-vault/Lore",
+    "obsidian-vault/Encyclopedia/Countries/People's Republic of Titania (Titania).md",
+    "obsidian-vault/Encyclopedia/People",
+    "obsidian-vault/Encyclopedia/Provinces",
+    "obsidian-vault/Encyclopedia/Miniaturia.md",
+    "obsidian-vault/Encyclopedia/Countries",
+    "obsidian-vault/Encyclopedia/Cities",
+    "obsidian-vault/Encyclopedia",
+    "obsidian-vault",
+    "world_data.db",
+    "provinces_source.csv",
+    "Minaturia Provinces.csv",
+    "_Templates/Country Template.md",
     "_Templates/City Template.md",
     "{{ProvinceName}}.md",
-    "Countries",
-    "_Templates/Country Template.md",
-    "Miniaturia.md",
-    "_Templates"
+    "Encyclopedia/Miniaturia.md"
   ]
 }

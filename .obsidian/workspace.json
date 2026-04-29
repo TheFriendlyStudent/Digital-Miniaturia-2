@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/Country Template.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Country Template"
+              "title": "Untitled"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/Country Template.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Country Template"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/Country Template.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Country Template"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/Country Template.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Country Template"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -196,22 +196,41 @@
   },
   "active": "fd757680a401846e",
   "lastOpenFiles": [
-    "Encyclopedia/Countries/People's Republic of Titania (Titania).md",
+    "_Templates/Country Template.md",
+    "Untitled.md",
+    "_Templates/City Template.md",
+    "Encyclopedia/Provinces/Addisonia.md",
+    "Encyclopedia/Provinces/Abyssinia.md",
+    "Encyclopedia/Provinces/Šámbriskograd.md",
+    "Encyclopedia/Provinces/Zolo (Золо).md",
+    "Encyclopedia/Provinces/Zofia.md",
+    "Encyclopedia/Provinces/Zielney.md",
+    "Encyclopedia/Provinces/Zetagrad.md",
+    "Encyclopedia/Provinces/Zalivgrad(Заливград).md",
+    "Encyclopedia/Provinces/Zelegrad(Зелеград).md",
+    "Encyclopedia/Provinces/Xigorod.md",
+    "Encyclopedia/Provinces/Yesaul.md",
+    "Encyclopedia/Provinces/Yablecki.md",
+    "Encyclopedia/Provinces/Westsonia.md",
+    "Encyclopedia/Provinces/Wesselgrad.md",
+    "Encyclopedia/Provinces/Wellen.md",
+    "Encyclopedia/Provinces/Wassergrad.md",
+    "Encyclopedia/Provinces/Vulkán (Волкан).md",
+    "Encyclopedia/Provinces/Volford.md",
+    "Encyclopedia/Provinces/Vtakelgrad (Birdhaven).md",
+    "Encyclopedia/Provinces/Valashka.md",
+    "Encyclopedia/Provinces/Veverichka.md",
+    "Encyclopedia/Provinces/Vanaheim.md",
+    "Encyclopedia/Provinces/Valgorod.md",
+    "Encyclopedia/Provinces",
+    "Encyclopedia",
+    "world_data.db-journal",
     "obsidian-vault/Lore",
-    "obsidian-vault/Encyclopedia/Countries/People's Republic of Titania (Titania).md",
     "obsidian-vault/Encyclopedia/People",
     "obsidian-vault/Encyclopedia/Provinces",
-    "obsidian-vault/Encyclopedia/Miniaturia.md",
     "obsidian-vault/Encyclopedia/Countries",
     "obsidian-vault/Encyclopedia/Cities",
     "obsidian-vault/Encyclopedia",
-    "obsidian-vault",
-    "world_data.db",
-    "provinces_source.csv",
-    "Minaturia Provinces.csv",
-    "_Templates/Country Template.md",
-    "_Templates/City Template.md",
-    "{{ProvinceName}}.md",
-    "Encyclopedia/Miniaturia.md"
+    "obsidian-vault"
   ]
 }

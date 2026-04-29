@@ -1,51 +1,47 @@
 import pandas as pd
 import sqlite3
+from pathlib import Path
 
-# 1. Load your Province CSV
+# Load your CSV
 df = pd.read_csv('provinces_source.csv')
 
-# 2. Connect to (or create) your world database
+# 1. Update the SQLite Database
 conn = sqlite3.connect('world_data.db')
-
-# 3. Migrate the data to a SQL table
-# This automatically creates the schema based on your CSV headers
 df.to_sql('provinces', conn, if_exists='replace', index=False)
 
-conn.close()
-print("Migration to SQLite complete.")
-
-def generate_obsidian_pages():
-    conn = sqlite3.connect('world_data.db')
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM provinces")
+# 2. Generate Obsidian Wiki Pages
+def generate_wiki(row):
+    # Create the file path
+    path = Path(f"Encyclopedia/Provinces/{row['Name']}.md")
+    path.parent.mkdir(parents=True, exist_ok=True)
     
-    # Get column names to map to your template
-    columns = [description[0] for description in cursor.description]
-    
-    for row in cursor.fetchall():
-        data = dict(zip(columns, row))
-        
-        # Format the Markdown content
-        content = f"""---
-title: {data['province_name']}
-country: [[{data['parent_country']}]]
-population: {data['population']}
-type: province
+    content = f"""---
+id: {row['id']}
+country: [[{row['Country']}]]
+population: {row['Population']}
+tags: #province #geo/{row['Geography'].lower()}
 ---
-# {data['province_name']}
-**Part of:** [[{data['parent_country']}]]
+# {row['Name']}
+A province located within the borders of [[{row['Country']}]].
 
-## 📊 Quick Stats
-* **Governor:** [[{data['governor']}]]
-* **Climate:** {data['climate']}
+## 📊 Statistics
+| Statistic | Value |
+| :--- | :--- |
+| **Dominant Language** | {row['Language']} |
+| **Geography** | {row['Geography']} |
+| **Settlement** | Tier {row['Settlement Level']} ({row['Settlement Type']}) |
 
-{data['description']}
+## 🛠️ Economy & Production
+This province is a key producer of resources for [[{row['Country']}]]:
+* **Food Production:** {row['Food Production']} units/cycle
+* **Fuel Production:** {row['Fuel Production']} units/cycle
 
-**Tags:** #province #encyclopedia
+---
+[[All Provinces]] | [[{row['Country']}#Provinces|View in Country Map]]
 """
-        # Save to your Obsidian Vault folder
-        file_name = f"obsidian-vault/Encyclopedia/Provinces/{data['province_name']}.md"
-        with open(file_name, 'w', encoding='utf-8') as f:
-            f.write(content)
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(content)
 
-    conn.close()
+# Apply the function to every row
+df.apply(generate_wiki, axis=1)
+conn.close()

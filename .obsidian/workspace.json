@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5ef2b13b783b0c4f",
+        "id": "849461d644f94a6a",
         "type": "tabs",
         "children": [
           {
-            "id": "fd757680a401846e",
+            "id": "cc950999a9e804dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd757680a401846e",
+  "active": "cc950999a9e804dd",
   "lastOpenFiles": [
+    "Untitled.md",
     "obsidian-vault/Encyclopedia/Provinces/Šámbriskograd.md",
     "obsidian-vault/Encyclopedia/Provinces/Zofia.md",
     "obsidian-vault/Encyclopedia/Provinces/Zielney.md",
@@ -221,7 +222,6 @@
     "obsidian-vault/Encyclopedia/Provinces/Valashka.md",
     "obsidian-vault/Encyclopedia/Provinces/Vahallagrad.md",
     "obsidian-vault/Encyclopedia/Provinces/Trinita.md",
-    "obsidian-vault/Encyclopedia/Provinces/Torograd (Тороград).md",
     "obsidian-vault/Encyclopedia/Provinces",
     "Encyclopedia/Provinces",
     "obsidian-vault/Encyclopedia/Provinces/Provinces",

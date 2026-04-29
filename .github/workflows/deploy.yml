@@ -32,7 +32,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24 # Using Node 24 as requested by the environment
+          node-version: 24 # Using Node 24 to align with GitHub's latest environment
           cache: 'npm'
           cache-dependency-path: quartz/package-lock.json
 
@@ -42,9 +42,11 @@ jobs:
 
       - name: Build Quartz
         working-directory: quartz
-        # npx --package forces the runner to use the actual package binary
-        # and avoids the naming conflict with your 'quartz' folder.
-        run: npx --package @jackyzha0/quartz quartz build
+        # We manually add the local binaries to the PATH.
+        # This prevents the shell from confusing the 'quartz' folder with the 'quartz' command.
+        run: |
+          export PATH=$PWD/node_modules/.bin:$PATH
+          quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

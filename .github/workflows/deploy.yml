@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # Stable LTS to avoid deprecation warnings
+          node-version: 22 # Stable LTS version
           cache: 'npm'
           cache-dependency-path: quartz/package-lock.json
 
@@ -38,8 +38,8 @@ jobs:
 
       - name: Build Quartz
         working-directory: quartz
-        # Using npx directly but ensuring we don't conflict with the folder name
-        run: npx quartz build
+        # We use the full package name to avoid conflict with the 'quartz' directory name
+        run: npx @jackyzha0/quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

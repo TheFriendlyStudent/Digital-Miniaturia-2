@@ -32,7 +32,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # Stable LTS version
+          node-version: 24 # Using Node 24 as requested by the environment
           cache: 'npm'
           cache-dependency-path: quartz/package-lock.json
 
@@ -42,9 +42,9 @@ jobs:
 
       - name: Build Quartz
         working-directory: quartz
-        # Directly calling the binary bypasses the 'Permission denied' folder conflict
-        # and the 'quartz: not found' error.
-        run: ./node_modules/.bin/quartz build
+        # npx --package forces the runner to use the actual package binary
+        # and avoids the naming conflict with your 'quartz' folder.
+        run: npx --package @jackyzha0/quartz quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

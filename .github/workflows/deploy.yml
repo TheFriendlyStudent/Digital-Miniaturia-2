@@ -38,7 +38,8 @@ jobs:
 
       - name: Build Quartz
         working-directory: quartz
-        run: npm run build
+        # Using npx directly but ensuring we don't conflict with the folder name
+        run: npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

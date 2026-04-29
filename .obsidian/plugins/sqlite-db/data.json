@@ -2,7 +2,7 @@
   "dbFilePath": "C:\\Users\\vasub\\Documents\\GitHub\\Digital-Miniaturia-2\\world_data.db",
   "mode": "local",
   "apiBaseUrl": "",
-  "journalFolderPath": "C:\\Users\\vasub\\Documents\\GitHub\\Digital-Miniaturia-2\\obsidian-vault",
+  "journalFolderPath": "\\obsidian-vault\\",
   "journalTableName": "",
   "cfAccessClientId": "",
   "cfAccessClientSecret": ""

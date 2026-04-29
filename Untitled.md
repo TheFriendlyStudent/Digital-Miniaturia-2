@@ -1,7 +1,9 @@
 ```sql
-SELECT Name, Population, Geography 
-FROM provinces 
-WHERE Name = 'Keenesia'
-ORDER BY Population DESC
+table: provinces
+columns: Name, Country, Population, Geography
+filterColumn: Country
+filterValue: Meehanistan
 ```
+
+
 

@@ -11,12 +11,14 @@
             "id": "663a84e624c5976b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/Maps/Map Layer.svg"
+                "file": "Encyclopedia/Countries/People's Republic of Titania.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Map Layer"
+              "icon": "lucide-file",
+              "title": "People's Republic of Titania"
             }
           }
         ]
@@ -194,12 +196,27 @@
   },
   "active": "663a84e624c5976b",
   "lastOpenFiles": [
-    "Encyclopedia/Countries/People's Republic of Titania.md",
+    "Assets/Maps/Map_Chambria.svg",
+    "Assets/Maps/Map_Bouldaria.svg",
+    "Assets/Maps/Map_Brazealian_Guinea.svg",
+    "Assets/Maps/Map_Fama_and_Fortuna.svg",
+    "Assets/Maps/Map_People's_Republic_of_Titania.svg",
+    "Assets/Maps/Map_Meehanistan.svg",
+    "Assets/Maps/Map_Scotchland.svg",
+    "Assets/Maps/Map_United_Republic_of_Stoneland.svg",
+    "Assets/Maps/Map_Gormanistan.svg",
     "Assets/Maps/Map Layer.svg",
+    "Assets/Maps/Map_Workers'_Republic_of_North_Ostesia.svg",
+    "Encyclopedia/Countries/People's Republic of Titania.md",
+    "Encyclopedia/Provinces/Keenesia.md",
+    "Encyclopedia/Provinces/Keltigrsd (Келтиград).md",
+    "Encyclopedia/Provinces/Al-Khaba(Ал-Хаба).md",
+    "Encyclopedia/Provinces/Agripigrad (Агрыпиград).md",
+    "Encyclopedia/Provinces/Abyssinia.md",
+    "Encyclopedia/Cities/Amdota.md",
     "Assets/Maps",
     "Assets/Flags",
     "Assets",
-    "Encyclopedia/Cities/Amdota.md",
     "{{ProvinceName}}.md",
     "_Templates/City Template.md",
     "Encyclopedia/Provinces/Amdota.md",

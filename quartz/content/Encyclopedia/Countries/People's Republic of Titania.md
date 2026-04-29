@@ -3,7 +3,7 @@
 The People's Republic of Titania, commonly known as Titania or Rishtonia, is a hybrid capitalist democratic-republic situated on the northwest corner of the Miniaturian continent. 
 
 ---
-
+![[Map_People's_Republic_of_Titania.svg|697]]
 ## Quick Facts
 | Category             | Information                            |
 | :------------------- | :------------------------------------- |

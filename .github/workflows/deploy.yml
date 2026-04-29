@@ -6,7 +6,7 @@ on:
 
 # Setting the environment variable globally for the workflow to opt-in to Node 24
 env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 permissions:
   contents: read

@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "thefriendlystudent.github.io/Digital-Miniaturia-2",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["_Templates", "private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

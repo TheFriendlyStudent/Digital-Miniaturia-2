@@ -1,3 +1,861 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+// DIGITAL MINIATURIA — RETRO 80s/90s WIKIPEDIA THEME
+// Inspired by early Mosaic/Netscape era web design
+// ============================================================
+
+// --- CUSTOM FONTS (retro terminal / typewriter feel) ---
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Special+Elite&family=Share+Tech+Mono&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+
+// --- CSS VARIABLE OVERRIDES ---
+:root {
+  // Retro color palette
+  --retro-bg: #c0c0c0;
+  --retro-bg-dark: #808080;
+  --retro-window-bg: #ffffff;
+  --retro-navy: #000080;
+  --retro-teal: #008080;
+  --retro-maroon: #800000;
+  --retro-olive: #808000;
+  --retro-link: #0000ee;
+  --retro-visited: #551a8b;
+  --retro-active: #ff0000;
+  --retro-border-light: #ffffff;
+  --retro-border-dark: #404040;
+  --retro-border-mid: #808080;
+  --retro-yellow: #ffff00;
+  --retro-lime: #00ff00;
+  --retro-aqua: #00ffff;
+  --retro-hr: #808080;
+  --retro-table-header: #000080;
+  --retro-table-alt: #e8e8e8;
+
+  // Override Quartz theme vars to match retro palette
+  --light: #c0c0c0;
+  --lightgray: #a0a0a0;
+  --gray: #606060;
+  --darkgray: #202020;
+  --dark: #000000;
+  --secondary: #000080;
+  --tertiary: #800000;
+  --highlight: rgba(255, 255, 0, 0.3);
+  --textHighlight: rgba(255, 255, 0, 0.5);
+}
+
+[saved-theme="dark"] {
+  --light: #1a1a2e;
+  --lightgray: #2d2d4a;
+  --gray: #4a4a6a;
+  --darkgray: #c0c0d0;
+  --dark: #e0e0f0;
+  --secondary: #00aaff;
+  --tertiary: #ff6060;
+  --highlight: rgba(0, 170, 255, 0.15);
+  --retro-bg: #1a1a2e;
+  --retro-window-bg: #0d0d1a;
+  --retro-navy: #4040cc;
+  --retro-link: #00ccff;
+  --retro-visited: #cc88ff;
+  --retro-table-header: #001a4d;
+  --retro-table-alt: #0d0d2e;
+  --retro-border-light: #3a3a5a;
+  --retro-border-dark: #090910;
+}
+
+// ============================================================
+// GLOBAL BODY / PAGE STYLING
+// ============================================================
+
+body {
+  background-color: var(--retro-bg) !important;
+  // Classic tiled texture using CSS
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.03) 2px,
+      rgba(0,0,0,0.03) 4px
+    ) !important;
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
+  font-size: 14px;
+  color: #000000;
+}
+
+// ============================================================
+// RETRO WINDOW / CHROME EFFECT
+// ============================================================
+
+// 3D beveled border mixin (CSS-only, old Windows 3.1/95 style)
+@mixin bevel-raised {
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--retro-border-light) var(--retro-border-dark) var(--retro-border-dark) var(--retro-border-light);
+}
+
+@mixin bevel-sunken {
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--retro-border-dark) var(--retro-border-light) var(--retro-border-light) var(--retro-border-dark);
+}
+
+// Main content area — looks like a "window"
+.page > #quartz-body {
+  background: var(--retro-bg);
+
+  & .center {
+    background: var(--retro-window-bg);
+    @include bevel-raised;
+    padding: 0 !important;
+    margin: 8px 4px;
+  }
+
+  & .page-header {
+    background: var(--retro-navy);
+    padding: 4px 8px;
+    margin: 0 !important;
+
+    nav.breadcrumb-container {
+      color: #ffffff;
+      a {
+        color: #ffff00 !important;
+        font-family: 'VT323', monospace;
+        font-size: 1rem;
+        &:hover { color: var(--retro-aqua) !important; text-decoration: underline; }
+      }
+      p { color: #c0c0c0 !important; margin: 0 0.2rem; }
+    }
+  }
+}
+
+// ============================================================
+// SIDEBAR STYLING — Old-school directory panel
+// ============================================================
+
+.sidebar.left,
+.sidebar.right {
+  background: var(--retro-bg) !important;
+  @include bevel-raised;
+  margin: 8px 4px;
+  padding: 0 !important;
+  height: auto !important;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+// Left sidebar title bar
+.sidebar.left {
+  &::before {
+    content: "📁 NAVIGATOR";
+    display: block;
+    background: var(--retro-navy);
+    color: #ffffff;
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+    padding: 3px 8px;
+    letter-spacing: 0.05em;
+  }
+}
+
+// Right sidebar title bar
+.sidebar.right {
+  &::before {
+    content: "📊 INFO PANEL";
+    display: block;
+    background: var(--retro-navy);
+    color: #ffffff;
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+    padding: 3px 8px;
+    letter-spacing: 0.05em;
+  }
+}
+
+// Page title in sidebar
+.page-title {
+  font-family: 'VT323', monospace !important;
+  font-size: 1.4rem !important;
+  color: var(--retro-navy) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 8px;
+  border-bottom: 2px solid var(--retro-border-dark);
+  margin: 0 !important;
+  
+  a {
+    color: var(--retro-navy) !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    &:hover { color: var(--retro-maroon) !important; }
+  }
+}
+
+// ============================================================
+// EXPLORER (FILE TREE)
+// ============================================================
+
+.explorer {
+  font-family: 'Share Tech Mono', monospace !important;
+  font-size: 0.78rem !important;
+  padding: 4px;
+
+  button.desktop-explorer h2 {
+    font-family: 'VT323', monospace !important;
+    font-size: 1rem !important;
+    color: var(--retro-navy) !important;
+    text-transform: uppercase;
+  }
+}
+
+.folder-container .folder-button span,
+.explorer-content ul li a {
+  font-family: 'Share Tech Mono', monospace !important;
+  font-size: 0.78rem !important;
+}
+
+// ============================================================
+// SEARCH BAR — Retro input box
+// ============================================================
+
+.search {
+  .search-button {
+    @include bevel-sunken;
+    background: #ffffff !important;
+    font-family: 'VT323', monospace !important;
+    font-size: 1rem !important;
+    color: #000000 !important;
+    
+    p { color: #404040 !important; }
+    
+    svg .search-path { stroke: var(--retro-navy) !important; }
+    
+    &:hover {
+      background: var(--retro-yellow) !important;
+    }
+  }
+}
+
+// ============================================================
+// MAIN ARTICLE CONTENT
+// ============================================================
+
+article {
+  padding: 12px 20px 20px 20px !important;
+  background: #ffffff !important;
+  
+  // Article title
+  & > h1.article-title {
+    font-family: 'Special Elite', serif !important;
+    font-size: 1.8rem !important;
+    color: #000000 !important;
+    border-bottom: 3px double #000000 !important;
+    padding-bottom: 4px !important;
+    margin-bottom: 8px !important;
+    text-shadow: 1px 1px 0 #c0c0c0;
+  }
+}
+
+// All headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite', serif !important;
+}
+
+h1 { font-size: 1.6rem !important; }
+h2 {
+  font-size: 1.3rem !important;
+  border-bottom: 2px solid #000080 !important;
+  color: var(--retro-navy) !important;
+  padding-bottom: 2px !important;
+}
+h3 {
+  font-size: 1.1rem !important;
+  color: var(--retro-maroon) !important;
+}
+
+// Body text
+p, li, td, th {
+  font-family: 'Courier Prime', Courier, monospace !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5rem !important;
+}
+
+// ============================================================
+// LINKS — Classic blue/purple scheme
+// ============================================================
+
+a {
+  color: var(--retro-link) !important;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  
+  &:visited { color: var(--retro-visited) !important; }
+  &:hover { color: var(--retro-active) !important; }
+  &:active { color: var(--retro-active) !important; }
+  
+  &.internal {
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    color: var(--retro-link) !important;
+    text-decoration: underline !important;
+
+    &.tag-link {
+      background: var(--retro-table-header) !important;
+      color: #ffffff !important;
+      padding: 1px 4px !important;
+      font-family: 'VT323', monospace !important;
+      font-size: 0.9rem !important;
+      text-decoration: none !important;
+      border: 1px solid #000060 !important;
+      
+      &::before { content: "#"; }
+      &:hover {
+        background: var(--retro-maroon) !important;
+        color: #ffff00 !important;
+      }
+    }
+  }
+}
+
+// ============================================================
+// TABLES — Old-school HTML table vibe
+// ============================================================
+
+.table-container {
+  overflow-x: auto;
+  margin: 1rem 0;
+  
+  & > table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border: 2px solid #000000 !important;
+    background: #ffffff;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    th {
+      background: var(--retro-table-header) !important;
+      color: #ffffff !important;
+      font-family: 'VT323', monospace !important;
+      font-size: 1rem !important;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 8px !important;
+      border: 1px solid #000060 !important;
+      text-align: left;
+    }
+
+    td {
+      padding: 3px 8px !important;
+      border: 1px solid #808080 !important;
+      font-family: 'Courier Prime', monospace !important;
+      font-size: 0.85rem !important;
+    }
+
+    tr:nth-child(even) td {
+      background: var(--retro-table-alt) !important;
+    }
+
+    tr:hover td {
+      background: #ffffcc !important;
+    }
+
+    // First column bold (label column in info tables)
+    td:first-child {
+      font-weight: bold !important;
+      color: var(--retro-navy) !important;
+      white-space: nowrap;
+    }
+  }
+}
+
+// ============================================================
+// HORIZONTAL RULES — Double-line retro style
+// ============================================================
+
+hr {
+  border: none !important;
+  border-top: 3px double #808080 !important;
+  margin: 1rem 0 !important;
+}
+
+// ============================================================
+// BLOCKQUOTES — Classic indented box
+// ============================================================
+
+blockquote {
+  background: #f0f0f0;
+  border-left: 4px solid var(--retro-navy) !important;
+  border-top: 1px solid var(--retro-border-dark) !important;
+  border-right: 1px solid var(--retro-border-dark) !important;
+  border-bottom: 1px solid var(--retro-border-dark) !important;
+  padding: 8px 12px !important;
+  font-style: italic;
+  color: #202020 !important;
+  margin: 1rem 2rem !important;
+
+  // Italicize the text within blockquotes
+  p { color: #202020 !important; font-style: italic; }
+}
+
+// ============================================================
+// CODE BLOCKS
+// ============================================================
+
+code {
+  background: #1a1a1a !important;
+  color: #00ff00 !important;
+  font-family: 'Share Tech Mono', monospace !important;
+  border: 1px solid #404040 !important;
+  padding: 1px 4px !important;
+  border-radius: 0 !important;
+}
+
+pre {
+  background: #1a1a1a !important;
+  border: 2px solid #404040 !important;
+  border-radius: 0 !important;
+  
+  &::before {
+    content: "C:\\> ";
+    color: #00ff00;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.8rem;
+    display: block;
+    padding: 4px 8px 0 8px;
+    opacity: 0.7;
+  }
+  
+  code {
+    color: #00ff00 !important;
+    font-family: 'Share Tech Mono', monospace !important;
+  }
+}
+
+// ============================================================
+// TABLE OF CONTENTS
+// ============================================================
+
+.toc {
+  background: #f8f8f0 !important;
+  border: 2px solid #808080 !important;
+  padding: 8px !important;
+  
+  &::before {
+    content: "📋 CONTENTS";
+    display: block;
+    font-family: 'VT323', monospace;
+    font-size: 1rem;
+    color: var(--retro-navy);
+    border-bottom: 1px solid #808080;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  button.toc-header {
+    display: none !important; // hide the default header, we use ::before
+  }
+  
+  ul.toc-content a {
+    font-family: 'Courier Prime', monospace !important;
+    font-size: 0.82rem !important;
+    color: var(--retro-link) !important;
+    text-decoration: underline !important;
+    &:hover { color: var(--retro-active) !important; }
+  }
+}
+
+// ============================================================
+// GRAPH COMPONENT — Give it a CRT monitor feel
+// ============================================================
+
+.graph {
+  h3 {
+    font-family: 'VT323', monospace !important;
+    color: var(--retro-navy) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .graph-outer {
+    background: #000000 !important;
+    border: 3px solid #404040 !important;
+    border-radius: 0 !important;
+    
+    &::before {
+      content: "◉ NETWORK MAP — ACTIVE";
+      display: block;
+      color: #00ff00;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.65rem;
+      padding: 2px 6px;
+      background: #001a00;
+      border-bottom: 1px solid #003a00;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+
+// ============================================================
+// BACKLINKS PANEL
+// ============================================================
+
+.backlinks {
+  h3 {
+    font-family: 'VT323', monospace !important;
+    color: var(--retro-navy) !important;
+    text-transform: uppercase;
+    font-size: 1rem !important;
+    letter-spacing: 0.05em;
+    border-bottom: 1px dashed #808080;
+    padding-bottom: 2px;
+  }
+
+  ul li a {
+    font-family: 'Courier Prime', monospace !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+// ============================================================
+// CONTENT META (date/reading time)
+// ============================================================
+
+.content-meta {
+  background: #e8e8e8 !important;
+  border: 1px solid #a0a0a0 !important;
+  padding: 2px 8px !important;
+  font-family: 'Share Tech Mono', monospace !important;
+  font-size: 0.75rem !important;
+  color: #404040 !important;
+  
+  &::before {
+    content: "⏱ ";
+  }
+  
+  time {
+    font-family: 'Share Tech Mono', monospace !important;
+    color: var(--retro-navy) !important;
+  }
+}
+
+// ============================================================
+// CALLOUT BOXES — Styled like old system dialog boxes
+// ============================================================
+
+.callout {
+  border-radius: 0 !important;
+  @include bevel-raised;
+  
+  .callout-title {
+    font-family: 'VT323', monospace !important;
+    font-size: 1.05rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--color) !important;
+    opacity: 1;
+    padding: 4px 8px;
+    margin: -1px -1px 0 -1px;
+    
+    .callout-title-inner p {
+      color: #ffffff !important;
+      font-family: 'VT323', monospace !important;
+    }
+  }
+
+  .callout-content {
+    padding: 0 8px;
+  }
+}
+
+// ============================================================
+// DARKMODE TOGGLE — Make it look like a power switch
+// ============================================================
+
+.darkmode {
+  background: var(--retro-bg) !important;
+  @include bevel-raised;
+  border-radius: 0 !important;
+  padding: 2px !important;
+  width: 28px !important;
+  height: 28px !important;
+  
+  svg { fill: #000000 !important; }
+  
+  &:hover {
+    background: var(--retro-yellow) !important;
+  }
+  &:active { @include bevel-sunken; }
+}
+
+// ============================================================
+// FOOTER
+// ============================================================
+
+footer {
+  background: var(--retro-navy) !important;
+  color: #c0c0c0 !important;
+  padding: 8px 16px !important;
+  border-top: 3px double #ffffff !important;
+  opacity: 1 !important;
+  
+  p {
+    color: #c0c0c0 !important;
+    font-family: 'VT323', monospace !important;
+    font-size: 0.9rem !important;
+  }
+  
+  a {
+    color: #ffff00 !important;
+    &:hover { color: var(--retro-aqua) !important; }
+  }
+
+  // "Under Construction" banner
+  &::after {
+    content: "🚧 THIS SITE IS BEST VIEWED IN NETSCAPE NAVIGATOR 2.0 AT 640×480 🚧";
+    display: block;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 0.85rem;
+    color: #ffff00;
+    margin-top: 4px;
+    animation: blink 1s step-end infinite;
+    letter-spacing: 0.05em;
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+// ============================================================
+// RETRO MARQUEE EFFECT ON H1 (article title)
+// Just a subtle animated underline
+// ============================================================
+
+article > .article-title {
+  position: relative;
+  
+  &::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      var(--retro-navy),
+      var(--retro-maroon),
+      var(--retro-teal),
+      var(--retro-navy)
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+    margin-top: 4px;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+// ============================================================
+// RETRO INFOBOX — Tables that look like Wikipedia infoboxes
+// with 90s styling
+// ============================================================
+
+// Target tables that appear first in articles (infobox style)
+article table:first-of-type {
+  float: right;
+  width: 280px !important;
+  margin: 0 0 12px 16px !important;
+  clear: right;
+  background: #f8f8e8 !important;
+  border: 2px solid #888888 !important;
+  font-size: 0.82rem !important;
+  
+  caption,
+  thead th {
+    background: var(--retro-navy) !important;
+    color: #ffffff !important;
+    font-family: 'VT323', monospace !important;
+    font-size: 1rem !important;
+    text-align: center !important;
+    padding: 4px !important;
+  }
+
+  td {
+    padding: 2px 6px !important;
+    font-size: 0.8rem !important;
+    border: 1px solid #aaaaaa !important;
+    vertical-align: top;
+    line-height: 1.35rem !important;
+  }
+
+  td:first-child {
+    background: #dde0f0 !important;
+    font-weight: bold !important;
+    font-family: 'VT323', monospace !important;
+    font-size: 0.9rem !important;
+    color: #000060 !important;
+    width: 40%;
+  }
+
+  @media (max-width: 600px) {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 12px 0 !important;
+  }
+}
+
+// ============================================================
+// RETRO SECTION DIVIDERS — Matching the 90s table aesthetics
+// ============================================================
+
+article h2 {
+  background: linear-gradient(90deg, #dde0f0, transparent) !important;
+  padding: 3px 8px !important;
+  border-left: 4px solid var(--retro-navy) !important;
+  border-bottom: 1px solid var(--retro-navy) !important;
+  margin-top: 1.5rem !important;
+}
+
+article h3 {
+  border-left: 3px solid var(--retro-maroon) !important;
+  padding-left: 8px !important;
+}
+
+// ============================================================
+// IMAGES — Give them a classic scan-line border
+// ============================================================
+
+article img {
+  border: 3px solid #808080 !important;
+  @include bevel-raised;
+  padding: 2px !important;
+  border-radius: 0 !important;
+}
+
+// ============================================================
+// LISTS — Old school bullet style
+// ============================================================
+
+article ul {
+  list-style-type: square !important;
+  
+  li::marker { color: var(--retro-navy); }
+}
+
+article ol {
+  li::marker {
+    color: var(--retro-navy);
+    font-family: 'VT323', monospace;
+  }
+}
+
+// ============================================================
+// DARK THEME OVERRIDES
+// ============================================================
+
+[saved-theme="dark"] {
+  body {
+    background-color: #0a0a1a !important;
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 80, 255, 0.04) 2px,
+        rgba(0, 80, 255, 0.04) 4px
+      ) !important;
+  }
+
+  article {
+    background: #0d0d20 !important;
+    
+    h1, h2, h3, h4, h5, h6 { color: #c0c0ff !important; }
+    h2 {
+      background: linear-gradient(90deg, #1a1a3a, transparent) !important;
+      border-left-color: #4040cc !important;
+      border-bottom-color: #4040cc !important;
+    }
+    h3 { border-left-color: #cc4040 !important; }
+
+    p, li, td { color: #c0c0d0 !important; }
+  }
+  
+  .sidebar.left::before,
+  .sidebar.right::before {
+    background: #001a4d !important;
+  }
+
+  .center {
+    background: #0d0d20 !important;
+    border-color: #3a3a5a #090910 #090910 #3a3a5a !important;
+  }
+
+  footer {
+    background: #001a4d !important;
+    border-top-color: #4040cc !important;
+  }
+
+  .table-container > table {
+    background: #0d0d20 !important;
+    border-color: #4040cc !important;
+    
+    th {
+      background: #001a4d !important;
+    }
+    td {
+      color: #c0c0d0 !important;
+      border-color: #3a3a5a !important;
+    }
+    tr:nth-child(even) td {
+      background: #0a0a28 !important;
+    }
+    tr:hover td {
+      background: #1a1a40 !important;
+    }
+    td:first-child {
+      color: #8888ff !important;
+      background: #0a0a30 !important;
+    }
+  }
+
+  article table:first-of-type {
+    background: #0a0a1e !important;
+    border-color: #4040cc !important;
+    
+    td:first-child {
+      background: #0d0d30 !important;
+      color: #8888ff !important;
+    }
+  }
+
+  blockquote {
+    background: #0d0d2a !important;
+    border-left-color: #4040cc !important;
+    p { color: #a0a0c0 !important; }
+  }
+
+  .content-meta {
+    background: #0d0d2a !important;
+    border-color: #3a3a5a !important;
+    color: #8080a0 !important;
+    time { color: #8888ff !important; }
+  }
+
+  .toc {
+    background: #0a0a1e !important;
+    border-color: #3a3a5a !important;
+    ul.toc-content a { color: #00aaff !important; }
+  }
+}

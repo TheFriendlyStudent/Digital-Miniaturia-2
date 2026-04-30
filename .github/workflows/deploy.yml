@@ -41,9 +41,7 @@ jobs:
 
       - name: Build Quartz
         working-directory: quartz
-        run: |
-          export PATH=$PWD/node_modules/.bin:$PATH
-          quartz build
+        run: npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

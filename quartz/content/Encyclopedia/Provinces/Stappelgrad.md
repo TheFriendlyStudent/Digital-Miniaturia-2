@@ -5,7 +5,7 @@ population: 35055
 tags: #province #geo/forest
 ---
 # Stappelgrad
-A province located within the borders of [[People's Republic of Titania]].
+A province located within the borders of [[Titania]].
 
 ## 📊 Statistics
 | Statistic | Value |
@@ -15,9 +15,9 @@ A province located within the borders of [[People's Republic of Titania]].
 | **Settlement** | Tier 2 (Village) |
 
 ## 🛠️ Economy & Production
-This province is a key producer of resources for [[People's Republic of Titania]]:
+This province is a key producer of resources for [[Titania]]:
 * **Food Production:** 2500000 units/cycle
 * **Fuel Production:** 75000000 units/cycle
 
 ---
-[[All Provinces]] | [[People's Republic of Titania#Provinces|View in Country Map]]
+[[All Provinces]] | [[Titania#Provinces|View in Country Map]]

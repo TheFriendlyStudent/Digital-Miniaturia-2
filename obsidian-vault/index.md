@@ -13,7 +13,7 @@ The world is currently divided into eleven distinct powers. Each nation manages 
 |**Nation**|**Type**|**Primary Language**|**Status**|
 |[[Meehanistan]]|Industrial Hegemony|Stonish|[Placeholder: Active]|
 |[[United Republic of Stoneland]]|Allied Union|English|[Placeholder: Stable]|
-|[[People's Republic of Titania]]|Collectivist State|English|[Placeholder: Growing]|
+|[[Titania]]|Collectivist State|English|[Placeholder: Growing]|
 |[[Fama and Fortuna]]|Merchant Union|English|[Placeholder: Wealthy]|
 |[[Workers' Republic of North Ostesia]]|Industrial Soviet|English|[Placeholder: Restricted]|
 |[[Eirikr]]|Northern Tribes|Stonish|[Placeholder: Developing]|

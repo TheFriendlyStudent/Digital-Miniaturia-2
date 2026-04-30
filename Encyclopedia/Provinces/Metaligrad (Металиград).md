@@ -1,0 +1,23 @@
+---
+id: 231
+country: [[Ostesia]]
+population: 1184
+tags: #province #geo/forest
+---
+# Metaligrad (Металиград)
+A province located within the borders of [[Ostesia]].
+
+## 📊 Statistics
+| Statistic | Value |
+| :--- | :--- |
+| **Dominant Language** | English |
+| **Geography** | Forest |
+| **Settlement** | Tier 3 (Town) |
+
+## 🛠️ Economy & Production
+This province is a key producer of resources for [[Ostesia]]:
+* **Food Production:** 2500000 units/cycle
+* **Fuel Production:** 2000000 units/cycle
+
+---
+[[All Provinces]] | [[Ostesia#Provinces|View in Country Map]]

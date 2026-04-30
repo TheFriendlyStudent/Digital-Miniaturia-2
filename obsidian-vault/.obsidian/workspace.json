@@ -11,14 +11,12 @@
             "id": "663a84e624c5976b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Encyclopedia/Countries/People's Republic of Titania.md",
-                "mode": "source",
-                "source": false
+                "file": "Assets/Maps/Map_Meehanistan.svg"
               },
-              "icon": "lucide-file",
-              "title": "People's Republic of Titania"
+              "icon": "lucide-image",
+              "title": "Map_Meehanistan"
             }
           }
         ]
@@ -194,20 +192,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75646bf64914a390",
+  "active": "663a84e624c5976b",
   "lastOpenFiles": [
+    "Assets/Flags/Flag_of_United_Republic_of_Stoneland.jpg",
+    "Assets/Flags/Flag_of_Bouldaria.jpg",
+    "Assets/Flags/Flag_of_Meehanistan.jpg",
+    "Assets/Flags/Flag_of_Eirikr.jpg",
+    "Assets/Flags/Flag_of_Brazaelian_Guinea.jpg",
+    "Encyclopedia/Countries/Titania.md",
+    "Assets/Flags/Flag_of_Ostesia.jpg",
+    "Assets/Flags/Flag_of_Fama_and_Fortuna.jpg",
+    "Assets/Flags/Flag_of_Scotchland.jpg",
+    "Assets/Flags/Flag_of_Titania.jpg",
+    "Assets/Flags/Flag_of_Gormanistan.jpg",
+    "Assets/Flags/Flag_of_Chambria.jpg",
+    "_Templates/City Template.md",
+    "_Templates/Country Template.md",
+    "World Map.md",
     "world_data.db",
-    "Assets/Maps/Map_Chambria.svg",
-    "Assets/Maps/Map_Bouldaria.svg",
-    "Assets/Maps/Map_Brazealian_Guinea.svg",
-    "Assets/Maps/Map_Fama_and_Fortuna.svg",
-    "Assets/Maps/Map_People's_Republic_of_Titania.svg",
-    "Assets/Maps/Map_Meehanistan.svg",
-    "Assets/Maps/Map_Scotchland.svg",
-    "Assets/Maps/Map_United_Republic_of_Stoneland.svg",
-    "Assets/Maps/Map_Gormanistan.svg",
-    "Assets/Maps/Map Layer.svg",
-    "Encyclopedia/Countries/People's Republic of Titania.md",
     "Encyclopedia/Provinces/Keenesia.md",
     "Encyclopedia/Provinces/Keltigrsd (Келтиград).md",
     "Encyclopedia/Provinces/Al-Khaba(Ал-Хаба).md",
@@ -218,7 +220,6 @@
     "Assets/Flags",
     "Assets",
     "{{ProvinceName}}.md",
-    "_Templates/City Template.md",
     "Encyclopedia/Provinces/Amdota.md",
     "index.md",
     "Encyclopedia/Untitled.md",

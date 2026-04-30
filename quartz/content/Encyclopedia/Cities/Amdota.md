@@ -1,5 +1,5 @@
 # Amdota (City)
-**Part of:** [[Encyclopedia/Provinces/Amdota|Amdota]], [[People's Republic of Titania]]
+**Part of:** [[Encyclopedia/Provinces/Amdota|Amdota]], [[Titania]]
 
 | Category             | Details |
 | :------------------- | :------ |

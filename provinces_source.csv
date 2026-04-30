@@ -1,22 +1,22 @@
 id,Name,Country,Language,Population,Geography,Settlement Level,Settlement Type,Food Production,Fuel Production
 1,Keenesia,Fama and Fortuna,English,29370,Forest,5,City,2500000,1000000
-2,Forbes,People's Republic of Titania,English,150733,Plains,6,Large City,7500000,1000000
-3,Griswold,People's Republic of Titania,English,180234,Plains,7,Metropolis,7500000,5000000
-4,Addisonia,People's Republic of Titania,English,110254,Plains,6,Large City,7500000,1000000
-5,Trinita,People's Republic of Titania,English,123547,Plains,6,Large City,7500000,1000000
-6,Amdota,People's Republic of Titania,English,164253,Plains,7,Metropolis,7500000,75000000
-7,Wellen,People's Republic of Titania,English,13450,Forest,4,Large Town,2500000,75000000
-8,Magadh,People's Republic of Titania,English,6200,Forest,3,Town,2500000,75000000
-9,Northerborders,People's Republic of Titania,Scotch,2000,Forest,3,Town,2500000,1000000
-10,Churchill,People's Republic of Titania,English,14660,Plains,5,City,7500000,5000000
-11,Salmon Brook,People's Republic of Titania,English,14007,Plains,5,City,7500000,5000000
-12,Hubbardeen,People's Republic of Titania,English,8004,Plains,4,Large Town,7500000,5000000
-13,Sulle,People's Republic of Titania,English,4890,Plains,3,Town,7500000,1000000
-14,Bellebron,People's Republic of Titania,English,6430,Forest,3,Town,2500000,75000000
-15,Westsonia,People's Republic of Titania,English,5788,Forest,3,Town,2500000,75000000
-16,Smithsonia,People's Republic of Titania,Scotch,5200,Forest,3,Town,2500000,1000000
-17,Neipsican,People's Republic of Titania,English,4087,Plains,2,Village,7500000,5000000
-18,Stappelgrad,People's Republic of Titania,Chambrish,35055,Forest,2,Village,2500000,75000000
+2,Forbes,Titania,English,150733,Plains,6,Large City,7500000,1000000
+3,Griswold,Titania,English,180234,Plains,7,Metropolis,7500000,5000000
+4,Addisonia,Titania,English,110254,Plains,6,Large City,7500000,1000000
+5,Trinita,Titania,English,123547,Plains,6,Large City,7500000,1000000
+6,Amdota,Titania,English,164253,Plains,7,Metropolis,7500000,75000000
+7,Wellen,Titania,English,13450,Forest,4,Large Town,2500000,75000000
+8,Magadh,Titania,English,6200,Forest,3,Town,2500000,75000000
+9,Northerborders,Titania,Scotch,2000,Forest,3,Town,2500000,1000000
+10,Churchill,Titania,English,14660,Plains,5,City,7500000,5000000
+11,Salmon Brook,Titania,English,14007,Plains,5,City,7500000,5000000
+12,Hubbardeen,Titania,English,8004,Plains,4,Large Town,7500000,5000000
+13,Sulle,Titania,English,4890,Plains,3,Town,7500000,1000000
+14,Bellebron,Titania,English,6430,Forest,3,Town,2500000,75000000
+15,Westsonia,Titania,English,5788,Forest,3,Town,2500000,75000000
+16,Smithsonia,Titania,Scotch,5200,Forest,3,Town,2500000,1000000
+17,Neipsican,Titania,English,4087,Plains,2,Village,7500000,5000000
+18,Stappelgrad,Titania,Chambrish,35055,Forest,2,Village,2500000,75000000
 19,Novtochka (Новточка),Meehanistan,Scotch,8100,Forest,2,Village,2500000,1000000
 20,Avarov (Аваров),Meehanistan,Scotch,7543,Forest,2,Village,2500000,1000000
 21,Zelegrad(Зелеград),Meehanistan,Stonish,7890,Forest,2,Village,2500000,1000000
@@ -224,18 +224,18 @@ id,Name,Country,Language,Population,Geography,Settlement Level,Settlement Type,F
 223,Rhograd,Eirikr,Stonish,4138,Mountains,3,Town,0,1000000
 224,Suryesaul,Eirikr,Stonish,873,Plains,2,Village,7500000,1000000
 225,Taugorod,Eirikr,Stonish,4187,Bog,3,Town,0,75000000
-226,Omnissigrad (Омнысиграл),Workers' Republic of North Ostesia,English,8716,Forest,4,Large Town,2500000,2000000
-227,Stygigrad (Стайгиград),Workers' Republic of North Ostesia,English,1095,Forest,2,Village,2500000,2000000
-228,Ryzagrad (Райзаград),Workers' Republic of North Ostesia,English,51904,Forest,6,Large City,2500000,2000000
-229,Lucigrad (Луcиград),Workers' Republic of North Ostesia,English,1106,Forest,3,Town,2500000,2000000
-230,Agripigrad (Агрыпиград),Workers' Republic of North Ostesia,English,1263,Forest,3,Town,2500000,2000000
-231,Metaligrad (Металиград),Workers' Republic of North Ostesia,English,1184,Forest,3,Town,2500000,2000000
-232,Graiagrad (Граяград),Workers' Republic of North Ostesia,English,12320,Forest,5,City,2500000,2000000
-233,Martiagrad (Мартаград),Workers' Republic of North Ostesia,English,1182,Forest,3,Town,2500000,2000000
-234,Macragrad,Workers' Republic of North Ostesia,English,5949,Forest,4,Large Town,2500000,2000000
-235,Hydragrad,Workers' Republic of North Ostesia,English,792,Forest,2,Village,2500000,2000000
-236,Cypragrad,Workers' Republic of North Ostesia,English,7593,Forest,4,Large Town,2500000,2000000
-237,Bakkagrad,Workers' Republic of North Ostesia,English,2746,Forest,3,Town,2500000,2000000
+226,Omnissigrad (Омнысиграл),Ostesia,English,8716,Forest,4,Large Town,2500000,2000000
+227,Stygigrad (Стайгиград),Ostesia,English,1095,Forest,2,Village,2500000,2000000
+228,Ryzagrad (Райзаград),Ostesia,English,51904,Forest,6,Large City,2500000,2000000
+229,Lucigrad (Луcиград),Ostesia,English,1106,Forest,3,Town,2500000,2000000
+230,Agripigrad (Агрыпиград),Ostesia,English,1263,Forest,3,Town,2500000,2000000
+231,Metaligrad (Металиград),Ostesia,English,1184,Forest,3,Town,2500000,2000000
+232,Graiagrad (Граяград),Ostesia,English,12320,Forest,5,City,2500000,2000000
+233,Martiagrad (Мартаград),Ostesia,English,1182,Forest,3,Town,2500000,2000000
+234,Macragrad,Ostesia,English,5949,Forest,4,Large Town,2500000,2000000
+235,Hydragrad,Ostesia,English,792,Forest,2,Village,2500000,2000000
+236,Cypragrad,Ostesia,English,7593,Forest,4,Large Town,2500000,2000000
+237,Bakkagrad,Ostesia,English,2746,Forest,3,Town,2500000,2000000
 238,San Medina,United Republic of Stoneland,Stonish,7310,Forest,4,Large Town,2500000,1000000
 239,DD 4,Eirikr,English,616,Forest,2,Village,2500000,1000000
 240,DD 5,Eirikr,English,29594,Forest,5,City,2500000,1000000
@@ -244,10 +244,10 @@ id,Name,Country,Language,Population,Geography,Settlement Level,Settlement Type,F
 243,DD 8,Eirikr,English,394,Bog,1,Frontier,0,75000000
 244,DD 10,Eirikr,English,2370,Bog,3,Town,0,75000000
 245,Gloria,Fama and Fortuna,English,899,Bog,2,Village,0,75000000
-246,Terragrad,Workers' Republic of North Ostesia,English,4013,Forest,3,Town,2500000,2000000
-247,Armagrad,Workers' Republic of North Ostesia,English,10145,Forest,5,City,2500000,2000000
-248,Duniagrad,Workers' Republic of North Ostesia,English,2396,Forest,3,Town,2500000,2000000
-249,Beligrad,Workers' Republic of North Ostesia,English,6723,Forest,4,Large Town,2500000,2000000
+246,Terragrad,Ostesia,English,4013,Forest,3,Town,2500000,2000000
+247,Armagrad,Ostesia,English,10145,Forest,5,City,2500000,2000000
+248,Duniagrad,Ostesia,English,2396,Forest,3,Town,2500000,2000000
+249,Beligrad,Ostesia,English,6723,Forest,4,Large Town,2500000,2000000
 250,DD 9,Eirikr,English,6813,Bog,4,Large Town,0,75000000
 251,Destinia,Fama and Fortuna,English,79690,Bog,6,Large City,0,75000000
 252,Providencia,Fama and Fortuna,English,7576,Bog,4,Large Town,0,75000000

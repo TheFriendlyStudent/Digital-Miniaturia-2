@@ -39,6 +39,10 @@ jobs:
         working-directory: quartz
         run: npm ci
 
+      - name: Fix Permissions
+        working-directory: quartz
+        run: chmod +x node_modules/.bin/quartz
+
       - name: Build Quartz
         working-directory: quartz
         run: npx quartz build

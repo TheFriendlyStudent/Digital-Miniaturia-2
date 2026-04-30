@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Miniaturia Reference",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Special Elite", // Used for h1, h2, etc.
+        header: "IBM Plex Mono", // Used for h1, h2, etc.
         body: "Courier Prime",   // Used for paragraphs
         code: "Share Tech Mono", // Used for code blocks
       },

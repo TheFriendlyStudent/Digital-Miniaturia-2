@@ -4,7 +4,6 @@ on:
     branches:
       - main
 
-# Opts into Node 24 for the internal GitHub Action runners to silence deprecation warnings
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
@@ -32,18 +31,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24 # Using Node 24 to align with GitHub's latest environment
+          node-version: 22
           cache: 'npm'
           cache-dependency-path: quartz/package-lock.json
 
       - name: Install Dependencies
         working-directory: quartz
-        run: npm install
+        run: npm ci
 
       - name: Build Quartz
         working-directory: quartz
-        # We manually add the local binaries to the PATH.
-        # This prevents the shell from confusing the 'quartz' folder with the 'quartz' command.
         run: |
           export PATH=$PWD/node_modules/.bin:$PATH
           quartz build

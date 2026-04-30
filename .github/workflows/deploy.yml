@@ -39,13 +39,9 @@ jobs:
         working-directory: quartz
         run: npm ci
 
-      - name: Fix Permissions
-        working-directory: quartz
-        run: chmod +x node_modules/.bin/quartz
-
       - name: Build Quartz
         working-directory: quartz
-        run: npx quartz build
+        run: node quartz/bootstrap-cli.mjs build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

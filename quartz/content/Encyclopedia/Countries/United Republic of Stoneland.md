@@ -1,33 +1,23 @@
----
-
-title: "{{CountryName}}" tags:
-
-- country
-- world-building
-- "{{Region}}"
-
----
-
 > _[Insert a defining quote or motto for this country here.]_
 
 **{{CountryName}}**, also known as **{{AlternateName}}**, is a {{GovernmentType}} situated in the {{RegionDescription}} of the Miniaturian continent.
 
 ---
 
-![[Map_{{CountryName_NoSpaces}}.svg|697]]
+![[Map_United_Republic_of_Stoneland.svg|697]]
 
 ## Quick Facts
 
-|Category|Information|
-|:--|:--|
-|**Official Name**|{{OfficialName}}|
-|**Capital**|[[Encyclopedia/Cities/{{Capital}}\|{{Capital}}]]|
-|**Primary Language**|{{PrimaryLanguage}}|
-|**Government**|{{GovernmentType}}|
-|**Current Ruler**|[[{{Ruler}}]]|
-|**Currency**|{{Currency}}|
-|**Population**|{{Population}}|
-|**Total Area**|{{Area}} km²|
+| Category             | Information                                      |
+| :------------------- | :----------------------------------------------- |
+| **Official Name**    | United Republic of Stoneland                     |
+| **Capital**          | [[Encyclopedia/Cities/{{Capital}}\|{{Capital}}]] |
+| **Primary Language** | {{PrimaryLanguage}}                              |
+| **Government**       | {{GovernmentType}}                               |
+| **Current Ruler**    | [[{{Ruler}}]]                                    |
+| **Currency**         | {{Currency}}                                     |
+| **Population**       | {{Population}}                                   |
+| **Total Area**       | {{Area}} km²                                     |
 
 ---
 

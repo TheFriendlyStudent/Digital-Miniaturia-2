@@ -1,7 +1,4 @@
-> *[Titania's history shall not be defined by the wars it waged, but by how it always presented a different way in a world that suggests authoritarianism is the natural order of things] 
-
-The People's Republic of Titania, commonly known as Titania or Rishtonia, is a hybrid capitalist democratic-republic situated on the northwest corner of the Miniaturian continent. 
-
+> *[The People's Republic of Titania, commonly known as Titania or Rishtonia, is a hybrid capitalist democratic-republic situated on the northwest corner of the Miniaturian continent.]  
 ---
 ![[Map_Titania.svg|697]]
 ## Quick Facts

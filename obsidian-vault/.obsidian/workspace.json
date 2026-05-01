@@ -11,12 +11,14 @@
             "id": "663a84e624c5976b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/Maps/Map_Meehanistan.svg"
+                "file": "Encyclopedia/People/Alexander Al-Rishad.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Map_Meehanistan"
+              "icon": "lucide-file",
+              "title": "Alexander Al-Rishad"
             }
           }
         ]
@@ -194,34 +196,40 @@
   },
   "active": "663a84e624c5976b",
   "lastOpenFiles": [
+    "Encyclopedia/Countries/Titania.md",
+    "Encyclopedia/Cities/Amdota.md",
+    "Encyclopedia/People/Alexander Al-Rishad.md",
+    "Encyclopedia/Countries/United Republic of Stoneland.md",
+    "_Templates/Person Template.md",
+    "_Templates/Country Template.md",
+    "Encyclopedia/Provinces/Luka Bozh (Bodgeville).md",
+    "index.md",
+    "Encyclopedia/Provinces/{{Province}}.md",
+    "World Map.md",
+    "Encyclopedia/Countries.md",
+    "_Templates/City Template.md",
+    "Encyclopedia/Provinces/Al-Kali(Ал-Халии).md",
+    "Assets/Maps/Map_Meehanistan.svg",
     "Assets/Flags/Flag_of_United_Republic_of_Stoneland.jpg",
     "Assets/Flags/Flag_of_Bouldaria.jpg",
     "Assets/Flags/Flag_of_Meehanistan.jpg",
     "Assets/Flags/Flag_of_Eirikr.jpg",
     "Assets/Flags/Flag_of_Brazaelian_Guinea.jpg",
-    "Encyclopedia/Countries/Titania.md",
     "Assets/Flags/Flag_of_Ostesia.jpg",
     "Assets/Flags/Flag_of_Fama_and_Fortuna.jpg",
     "Assets/Flags/Flag_of_Scotchland.jpg",
     "Assets/Flags/Flag_of_Titania.jpg",
-    "Assets/Flags/Flag_of_Gormanistan.jpg",
-    "Assets/Flags/Flag_of_Chambria.jpg",
-    "_Templates/City Template.md",
-    "_Templates/Country Template.md",
-    "World Map.md",
     "world_data.db",
     "Encyclopedia/Provinces/Keenesia.md",
     "Encyclopedia/Provinces/Keltigrsd (Келтиград).md",
     "Encyclopedia/Provinces/Al-Khaba(Ал-Хаба).md",
     "Encyclopedia/Provinces/Agripigrad (Агрыпиград).md",
     "Encyclopedia/Provinces/Abyssinia.md",
-    "Encyclopedia/Cities/Amdota.md",
     "Assets/Maps",
     "Assets/Flags",
     "Assets",
     "{{ProvinceName}}.md",
     "Encyclopedia/Provinces/Amdota.md",
-    "index.md",
     "Encyclopedia/Untitled.md",
     "Encyclopedia/Provinces/Addisonia.md"
   ]

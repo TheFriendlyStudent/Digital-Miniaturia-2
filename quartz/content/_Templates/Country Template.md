@@ -68,6 +68,6 @@ _List of provinces belonging to this country will appear here once linked._
 
 ---
 
-**Links:** [[World Map]] | [[Global History]] | [[All Countries]]
+**Links:** [[World Map]] | [[Global History]]
 
 **Tags:** #country #world-building #{{Region}}

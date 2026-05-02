@@ -1,63 +1,51 @@
-> _[Insert a defining quote or motto for this country here.]_
-
-**{{CountryName}}**, also known as **{{AlternateName}}**, is a {{GovernmentType}} situated in the {{RegionDescription}} of the Miniaturian continent.
+> _[{{OFFICIAL_NAME}}, commonly known as **{{COMMON_NAME}}**, is a {{GOVERNMENT_TYPE}} located in {{LOCATION_DESCRIPTION}}.]_
 
 ---
 
-![[Map_United_Republic_of_Stoneland.svg|697]]
-
-## Quick Facts
-
-| Category             | Information                                      |
-| :------------------- | :----------------------------------------------- |
-| **Official Name**    | United Republic of Stoneland                     |
-| **Capital**          | [[Encyclopedia/Cities/{{Capital}}\|{{Capital}}]] |
-| **Primary Language** | {{PrimaryLanguage}}                              |
-| **Government**       | {{GovernmentType}}                               |
-| **Current Ruler**    | [[{{Ruler}}]]                                    |
-| **Currency**         | {{Currency}}                                     |
-| **Population**       | {{Population}}                                   |
-| **Total Area**       | {{Area}} km²                                     |
+| ![[Flag_of_United_Republic_of_Stoneland.jpg\|400]] | ![[Map_United_Republic_of_Stoneland.svg\|400]] |
+| :------------------------------------------------: | :--------------------------------------------: |
+|                 **Official Name**                  |               {{OFFICIAL_NAME}}                |
+|                  **Common Name**                   |                {{COMMON_NAME}}                 |
+|                    **Capital**                     |               [[Rockville City]]               |
+|                  **Largest City**                  |               [[Rockville City]]               |
+|                **Primary Language**                |                    Stonish                     |
+|                   **Government**                   |              Gormellian Republic               |
+|                 **Current Ruler**                  |               [[{{RULER_NAME}}]]               |
+|                    **Currency**                    |                 Stonish Credit                 |
+|                   **Population**                   |                   36,264,984                   |
+|                   **Total Area**                   |               2,427,453.415 km²                |
 
 ---
 
 ## Overview
 
-_A brief summary of the country's current status in the world. Who are their allies? What is their primary export? What is the general "vibe" of the architecture and culture?_
-
-## Major Settlements
-
-- **[[{{CapitalCity}}]]**: The seat of power.
-- **[[{{City2}}]]**: Known for [Trade/Military/Industry].
-- **[[{{City3}}]]**: [Brief description].
+{{OVERVIEW — Who are their allies? What is their primary export? What is the general "vibe" of the architecture and culture? How are they perceived by neighbors?}}
 
 ## History
 
 ### The Founding
 
-_How was this country established? Was it a revolution, a discovery, or an ancient claim?_
+{{FOUNDING — How was this country established? Was it a revolution, a discovery, or an ancient claim?}}
 
 ### Key Eras
 
-- **Year XXXX**: The Great Conflict.
-- **Year XXXX**: The Golden Age of {{Resource}}.
+- **Year XXXX** — _{{ERA_NAME}}_: {{ERA_DESCRIPTION}}
+- **Year XXXX** — _{{ERA_NAME}}_: {{ERA_DESCRIPTION}}
 
 ## Politics & Relations
 
-- **Allies:** [[Country B]], [[Country C]]
-- **Rivalries:** [[Country D]]
-- **Internal Factions:** _(e.g., The Merchant's Guild, The Royal Guard)_
+The URS maintains strong military ties to Eirikr and Bouldaria through the Al Tashkil Accord Organization, with Bouldaria in particular also having a very close economic relationship. It also maintains close relations with Scotchland in the form of The Covenant, a longstanding unwritten non-aggression and mutual support agreement dating back to the birth of Scotchland as an independent state. The URS also maintains a similarly unofficial, asymmetrical alliance with Brazealian Guinea, being likely supporting them in case of invasion despite BG’s neutrality.
+
+## Major Settlements
+
+- **[[{{CAPITAL_CITY}}]]** — The seat of power. {{CAPITAL_NOTES}}
+- **[[{{CITY_2}}]]** — Known for {{CITY_2_ROLE — Trade/Military/Magic/etc}}.
+- **[[{{CITY_3}}]]** — {{CITY_3_DESCRIPTION}}
 
 ## Geography & Climate
 
-_Describe the terrain. Is it mountainous, coastal, or desert? How does the environment affect the people who live there?_
-
-## Provinces
-
-_List of provinces belonging to this country will appear here once linked._
+The URS is separated into 4 main geopolitical regions. From west to east these are Casadomia, Canadia, the Grankrusche, and Ostlied. Casadomia is largely dominated by hills and pine forests, with southern Casadomia being home to rocky cliffs and large mineral deposits. Canadia is primarily covered by plains and deciduous forests, with various streams flowing south from the Scotch alps. The Grankrusche region is characterized by the Strait of Grankrusche which divides it in half and from which it derives its name. Lastly Ostlied is covered primarily in fertile wetlands and peat bogs.
 
 ---
 
-**Links:** [[World Map]] | [[Global History]]
-
-**Tags:** #country #world-building #{{Region}}
+**Links:** [[World Map]] | [[Global History]] | [[All Countries]]

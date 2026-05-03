@@ -49,7 +49,7 @@ Explore the world based on geographic data or administrative boundaries.
 
 This archive is synchronized with the World Engine.
 
-- **Resource Tracking**: View live reports for 🌾 **Food Production** and ⛽ **Fuel Production**.
+- **Resource Tracking**: View live reports for **Food Production** and **Fuel Production**.
     
 - **Population Density**: Analyze demographic shifts across the 11 nations.
     

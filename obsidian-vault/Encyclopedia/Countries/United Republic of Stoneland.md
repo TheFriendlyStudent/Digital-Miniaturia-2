@@ -4,8 +4,8 @@
 
 | ![[Flag_of_United_Republic_of_Stoneland.jpg\|400]] | ![[Map_United_Republic_of_Stoneland.svg\|400]] |
 | :------------------------------------------------: | :--------------------------------------------: |
-|                 **Official Name**                  |               {{OFFICIAL_NAME}}                |
-|                  **Common Name**                   |                {{COMMON_NAME}}                 |
+|                 **Official Name**                  |          United Republic of Stoneland          |
+|                  **Common Name**                   |                   Stoneland                    |
 |                    **Capital**                     |               [[Rockville City]]               |
 |                  **Largest City**                  |               [[Rockville City]]               |
 |                **Primary Language**                |                    Stonish                     |

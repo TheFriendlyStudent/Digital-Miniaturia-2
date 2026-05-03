@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia/Countries/Titania.md",
+                "file": "Encyclopedia/Countries/Scotchland.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Titania"
+              "title": "Scotchland"
             }
           }
         ]
@@ -194,10 +194,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "663a84e624c5976b",
+  "active": "84a1a1e572e0c0b7",
   "lastOpenFiles": [
-    "Encyclopedia/Countries/United Republic of Stoneland.md",
     "Encyclopedia/Countries/Titania.md",
+    "Encyclopedia/Countries/United Republic of Stoneland.md",
+    "Encyclopedia/Countries/Scotchland.md",
+    "Encyclopedia/Countries/Ostesia.md",
+    "Encyclopedia/Countries/Gormanistan.md",
+    "Encyclopedia/Countries/Fama and Fortuna.md",
+    "Encyclopedia/Countries/Chambria.md",
+    "Encyclopedia/Countries/Brazaelian Guinea.md",
+    "Encyclopedia/Countries/Bouldaria.md",
+    "Encyclopedia/People/Alexander Al-Rishad.md",
+    "{{LARGEST_CITY}}.md",
+    "index.md",
+    "World Map.md",
+    "Encyclopedia/Provinces/Abyssinia.md",
+    "_Templates/Country Template.md",
+    "_Templates/City Template.md",
+    "_Templates/Person Template.md",
+    "All Provinces.md",
+    "Encyclopedia/Countries/Eirikr.md",
+    "Encyclopedia/Countries/Meehanistan.md",
     "Assets/Maps/Map_Titania.svg",
     "Assets/Maps/Map_United_Republic_of_Stoneland.svg",
     "Assets/Maps/Map_Scotchland.svg",
@@ -208,29 +226,15 @@
     "Assets/Maps/Map_Eirikr.svg",
     "Assets/Maps/Map_Chambria.svg",
     "Assets/Maps/Map_Brazealian_Guinea.svg",
-    "World Map.md",
-    "index.md",
-    "_Templates/Country Template.md",
-    "Encyclopedia/People/Alexander Al-Rishad.md",
     "Encyclopedia/Places/Amdota.md",
-    "_Templates/Person Template.md",
     "Encyclopedia/Provinces/Luka Bozh (Bodgeville).md",
     "Encyclopedia/Provinces/{{Province}}.md",
     "Encyclopedia/Countries.md",
-    "_Templates/City Template.md",
     "Encyclopedia/Provinces/Al-Kali(Ал-Халии).md",
     "world_data.db",
     "Encyclopedia/Provinces/Keenesia.md",
-    "Encyclopedia/Provinces/Keltigrsd (Келтиград).md",
-    "Encyclopedia/Provinces/Al-Khaba(Ал-Хаба).md",
-    "Encyclopedia/Provinces/Agripigrad (Агрыпиград).md",
-    "Encyclopedia/Provinces/Abyssinia.md",
     "Assets/Maps",
     "Assets/Flags",
-    "Assets",
-    "{{ProvinceName}}.md",
-    "Encyclopedia/Provinces/Amdota.md",
-    "Encyclopedia/Untitled.md",
-    "Encyclopedia/Provinces/Addisonia.md"
+    "Assets"
   ]
 }

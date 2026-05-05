@@ -32,6 +32,9 @@ After a long period of battling, one weaker Rizakh clan managed to master agricu
 As more and more tribes joined the alliance and developed agriculture, the Rizakhs began to expand beyond their usual prowling grounds,  intermittently raiding the Stonish tribes to the south and the Luko-Scotch to the east. Despite some military successes, there was very little unity or solidarity among Rizakhs outside of the mere desire to survive. As disputes began to emerge, a drought crippled the Rizakhs’ food production, leading to famines and more internal strife as warlords tried to secure food for their clan. the hot-headed descendants of the warlords who founded the alliance began to fight amongst each other; the alliance began to fracture. Before a complete descent into anarchy could begin, the warlord Bogyvara I embarked on a campaign to conquer all of the tribes. Bogyvara convinced other tribes to join him and fight for him by promising to lead them to new lands with plenty of food.
 ### The Rizakh Empire
 
+Under Bogyvara I, the Rizakhs became the most powerful empire in the world. The empire raised a large army supported by elephant cavalry. 
+
+The Rizakhs brutally raided any foreign settlements they encountered and ransacked entire villages for food, valuables, and anything else they could find. Following the sacking of Rockville, the Stonish city-states united to expel the Rizakhs from the Stonish homeland. The Rizakhs waged a devastating war on the Stonish, but one Stonish king managed to deliver a grand defeat. Large numbers of the western Rizakh army were annihilated and the survivors were forced to retreat.
 ### Excelaric Commonwealths (Excelor)
 
 When the Rizakhs retreated and reorganized further east, the Excelarics arrived in lands abandoned by the Rizakhs and established several independent commonwealths that were often at odds with each other. The Excelarics were an Athiest population which faced persecution from the High-King of Scotchland. Convinced they could start a country that would outlast the Scotch Kingdom, Seymour Andover led a group of would-be settlers to land rumored to be empty. 
@@ -52,7 +55,7 @@ The Bouldarian Tsar’s advisors begin to consider the idea of an alliance or un
 Bouldaria-Excelor’s success in the Great War brought Bouldarians and Rishtonians closer together. After the war’s end, it seemed that Bouldaria-Excelor would be a major player in the international arena. By this point, Rishtonia had fully recovered from Beinngrippe and had caught its industry up with the rest of the Stonosphere. However, the Bouldar-Rishtonian alliance proved to be weak without any war to reinforce it. 
 
 Rishtonians were gradually becoming less satisfied with the Tsar and monarch rule in general. Rishtonians made aggressive attempts at reform that would have abolished the Tsar and much of the Bouldarian influence in government. Bouldarians opposed the reforms, and the following dispute led to the Bouldaria-Excelor Civil War. The Bouldarians were backed by the URS, who facilitated the agreement that created Bouldaria-Excelor. Ultimately, Excelor acknowledged the dissolution of Bouldaria-Excelor.
-### Union of Rishtonia and Subsequent Partition
+### Union of Rishtonia
 
 Following the outcome of the Civil War, the Rishtonian politicians who pushed for abolishing the Tsar were deeply unpopular. Attempts at forming provisional and intermediary governments were failing. James Griswold, patriarch of the Griswold family, saw an opportunity to expand his family’s influence and power. Rishtonian tycoons rarely held government positions at the national level, but they often established connections with politicians, especially those in their home provinces. For centuries, tycoon families had held soft power in government in the form of receiving government grants to establish public services for provinces. 
 
@@ -62,11 +65,11 @@ Extreme corporate greed came to determine policy agendas in the Union of Rishton
 
 The provinces began intervening in conflicts independently on behalf of the UR. In several instances, provinces started fighting each other. The UR began causing internal and external chaos, leading to a war with Meehanistan and the Stonosphere that plunged the UR into debt. The individual provinces then proceeded to involve themselves in Chambria and the Meehani-Scotch War, prompting an ATAO invasion led by the URS and Eirikr. Due to the chaotic structure of the UR’s national defense, the UR could not stop the invasion. 
 
-The provinces that were situated along the border could not field armies as strong as the armies fielded by Trinita or Griswold. While most of the military was outside of the UR, the southern border was left completely undefended. As the country was invaded, the entire nation was engulfed in chaos. Rishtonian socialists organized mass demonstrations in major cities. President Bogin disappeared and was never seen again. As the URS and the ATAO made progress from the south, the Meehanis began invading from the east to prevent a full URS takeover. 
+The provinces that were situated along the border could not field strong armies like Trinita or Griswold. The entire southern border was left completely undefended. As the ATAO made rapid advances, the entire nation was engulfed in chaos. Amdotite socialists attempted to establish an independent commune. President Bogin disappeared and was never seen again. The Meehanis, who began to distrust the ATAO, launched their own invasion from the east to prevent a full URS takeover. Ultimately, the UR was effectively partitioned by the URS and Meehanistan along the western border of Addisonia, but wasn't officially dissolved until after Alexander Al-Rishad’s coup.
 
-Following Bogin's disappearance, Amdotite socialists attempted to establish an independent commune, which lasted until the Meehanis formally took control of Amdota. After the ATAO invaded the UR, the UR continued to exist despite the Meehanis effectively controlling the part of the UR that wasn’t occupied by the ATAO. Soon, a Meehani-sponsored coup officially overthrew the UR government, and the Rizakh People’s Republic was declared. Alexander Al-Rishad assumed leadership.
+### The Partition
 
-The UR was effectively partitioned by the URS and Meehanistan, but was officially dissolved after Alexander Al-Rishad’s coup. Some years after the coup, the URS would officially install Johann Moses as the Prime Minister of the new Excelaric Republic.
+
 ### People's Republic of Titania
 
 ## Politics & Relations

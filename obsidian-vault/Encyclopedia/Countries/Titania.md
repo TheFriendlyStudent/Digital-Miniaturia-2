@@ -75,7 +75,7 @@ The provinces that were situated along the border could not field strong armies 
 
 For over two decades, the Rishtonians were split into two nations: The ATAO-backed Excelaric Republic and Meehani-backed Rizakh People's Republic. The Rishtonian realm was the one of the many battlegrounds on which the Great Stonish Chess Match was contested. The Excelaric Republic was another rare instance of Stonish-Rishtonian cooperation, though in a more coercive context. The Rizakh People's Republic, under the leadership of Al-Rishad, broke several Rishtonian precedents, being a relatively authoritarian regime concerned with militarization and territorial conquest. 
 
-Johann Moses 
+The Partition era was defined by ideological conflict, national trauma, and long-term intability.
 ### People's Republic of Titania
 
 ## Politics & Relations
